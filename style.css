@@ -1,0 +1,288 @@
+html {
+    overflow-x: hidden;
+}
+
+* {
+    font-family: "Urbanist", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Section 1 - Home */
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+#nome-logo {
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: rgb(147, 191, 137);
+}
+
+#nome-logo,
+#slogan {
+    line-height: 4.5rem;
+}
+
+#nome-logo span,
+#slogan {
+    color: white;
+}
+
+.btn-home {
+    background-color: rgb(147, 191, 137);
+    color: rgb(75, 75, 75);
+    border: rgb(147, 191, 137) solid 1px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 750;
+    border-radius: .5rem;
+    transition: background-color 1s;
+    margin-top: 3em;
+    cursor: pointer;
+}
+
+.btn-home:hover {
+    background-color: transparent;
+    color: white;
+    border: white solid 1px;
+}
+
+.section-1 {
+    text-align: center;
+    align-content: center;
+    background-image: linear-gradient(rgba(40, 52, 36, 0.8), rgba(29, 29, 29, 0.8)), url("./img/bg-inicio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Section 2 - Sobre Nós */
+
+.section-2 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.container-sn {
+    display: flex;
+}
+
+.img-cozinha {
+    margin: auto;
+}
+
+.container-sn img {
+    padding-right: 2rem;
+    margin: auto;
+    max-width: 500px;
+}
+
+#titulo-sobre-nos,
+#titulo-menu,
+#titulo-contato {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: rgb(113, 158, 101);
+    margin: 1rem 1rem;
+}
+
+.sobre-nos p {
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+    color: rgb(75, 75, 75);
+}
+
+/* Section 3 - Cardápio */
+
+.section-3 {
+    margin-bottom: 5rem;
+}
+
+.menu-do-dia {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.cards {
+    display: flex;
+    padding: 2rem;
+}
+
+div.cards span.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    border-radius: 1rem;
+    max-height: 400px;
+    margin-left: 2rem;
+}
+
+div.cards span.card:first-child {
+    margin-left: 0;
+}
+
+div.cards span.card div.icon {
+    width: 230px;
+}
+
+div.cards span.card img {
+    width: 100%;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+#titulo-card {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0rem 1rem 0rem 1rem;
+    color: rgb(113, 158, 101);
+}
+
+.btn-card {
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: 0;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(113, 158, 101);
+    transition: background 1s;
+    font-size: 1rem;
+    margin: 1rem;
+    border: rgb(113, 158, 101) solid 1px;
+}
+
+.btn-card:hover, .btn-contato:hover{
+    background-color: white;
+    color: rgb(113, 158, 101);
+}
+
+div.cards span.card {
+    box-shadow: 20px 20px 50px -30px rgb(147, 191, 137);
+}
+
+/* Section 4 - Contato */
+
+.section-4 {
+    padding-bottom: 5rem;
+}
+
+.section-4 .contato {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn-contato {
+    padding: 0.5rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 2rem;
+    border: rgb(113, 158, 101) solid 1px;
+    background-color: rgb(113, 158, 101);
+    color: white;
+    margin: 1.5rem 1.5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+/* footer */
+
+#bartozinha {
+    height: 6vh;
+    background-color: rgb(113, 158, 101);
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+/* Mobile */
+
+@media (width < 50rem) {
+    html {
+        font-size: 80%;
+    }
+
+    /* Menu do dia - Section 3 */
+
+    div.cards {
+        flex-direction: column;
+    }
+
+    div.cards span.card {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    div.cards span.card:last-child {
+        margin-bottom: 0;
+    }
+}
+
+/* Section 2 - Sobre Nós*/
+
+@media (width < 60rem) {
+    .container-sn {
+        display: block;
+        margin: auto;
+    }
+
+    .container-sn img {
+        width: 100%;
+        padding: 2rem 0 2rem 0;
+    }
+
+    .img-cozinha {
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+/* Animação - Home */
+
+h1,
+h2,
+button {
+    animation: appear 1s backwards;
+}
+
+h2 {
+    animation-delay: 0.2s;
+}
+
+h2 {
+    animation-delay: 0.8s;
+}
+
+button {
+    animation-delay: 1.6s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+}
