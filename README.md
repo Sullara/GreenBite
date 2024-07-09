@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto GreenBite" src="./.github/GreenBite-Readme.jpg" width="100%">
+  <img alt="Preview do projeto GreenBite" src="./.github/GreenBite-Preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -32,6 +32,5 @@ Landing page para uma empresa fictícia de delivery de alimentos. A página poss
 Esse projeto está sob a licença MIT.
 
 ---
-<br>
 
 Feito por Sullara Tavares
