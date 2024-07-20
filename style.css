@@ -210,13 +210,15 @@ div.cards span.card {
 
 /* footer */
 
-#bartozinha {
-    height: 6vh;
+footer {
     background-color: rgb(113, 158, 101);
+    padding: 1rem;
+}
+
+#bartozinha {
     color: white;
     font-size: 1.3rem;
     font-weight: 200;
-    text-align: center;
 }
 
 /* Mobile */
