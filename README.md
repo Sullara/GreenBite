@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto GreenBite" src="./.github/GreenBite-Preview.jpg" width="100%">
+  <img alt="Preview do projeto GreenBite" src="./.github/GreenBite-Preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -21,6 +21,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- JavaScript
 - Git e Github
 
 ## 💻 Projeto
