@@ -27,7 +27,12 @@ html {
 .navbar .navbar-content {
     padding: 0 1.5rem 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.navbar .navbar-logo {
+    width: 3rem;
+    height: 100%;
 }
 
 .navbar .navbar-content .navbar-links li {
@@ -284,10 +289,6 @@ footer {
     /* Navbar */
     .navbar .navbar-content .navbar-links {
         display: none;
-    }
-
-    .navbar .navbar-content {
-        justify-content: right;
     }
 
     .navbar .navbar-content .navbar-mobile {
